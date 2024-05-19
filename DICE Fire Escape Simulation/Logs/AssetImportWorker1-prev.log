@@ -15,7 +15,7 @@ C:/Users/megan/Desktop/DICE-Fire-Escape-Simulation/DICE Fire Escape Simulation
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61914
+53254
 Successfully changed project path to: C:/Users/megan/Desktop/DICE-Fire-Escape-Simulation/DICE Fire Escape Simulation
 C:/Users/megan/Desktop/DICE-Fire-Escape-Simulation/DICE Fire Escape Simulation
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/megan/Desktop/DICE-Fire-Escape-Simulation/DICE Fire Escape Simulation
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20968] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2486239173 [EditorId] 2486239173 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LHC9UVDE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10580] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2122173828 [EditorId] 2122173828 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LHC9UVDE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20968] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2486239173 [EditorId] 2486239173 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LHC9UVDE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10580] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2122173828 [EditorId] 2122173828 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LHC9UVDE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 3697.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.17 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.25f1 (530ae0ba3889)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.691021 seconds.
-- Loaded All Assemblies, in 19.900 seconds
+Registered in 0.006782 seconds.
+- Loaded All Assemblies, in  0.451 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.448 seconds
-Domain Reload Profiling: 20347ms
-	BeginReloadAssembly (15460ms)
+- Finished resetting the current domain, in  0.326 seconds
+Domain Reload Profiling: 776ms
+	BeginReloadAssembly (153ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (1339ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (766ms)
-	LoadAllAssembliesAndSetupDomain (2317ms)
-		LoadAssemblies (15458ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (151ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2314ms)
-			TypeCache.Refresh (2312ms)
-				TypeCache.ScanAssembly (1406ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (163ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (449ms)
+	FinalizeReload (327ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (356ms)
+		SetupLoadedEditorAssemblies (259ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (241ms)
-			ProcessInitializeOnLoadMethodAttributes (88ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 20347ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.242 seconds
-Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.770 seconds
+Refreshing native plugins compatible for Editor in 4.78 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.900 seconds
-Domain Reload Profiling: 6140ms
-	BeginReloadAssembly (165ms)
+- Finished resetting the current domain, in  0.989 seconds
+Domain Reload Profiling: 1757ms
+	BeginReloadAssembly (178ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (36ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (45ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (4978ms)
-		LoadAssemblies (4715ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (486ms)
+		LoadAssemblies (365ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (356ms)
-			TypeCache.Refresh (330ms)
-				TypeCache.ScanAssembly (163ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (900ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (990ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (723ms)
+		SetupLoadedEditorAssemblies (780ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (609ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (655ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 5.13 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3562.
-Memory consumption went from 123.1 MB to 123.0 MB.
-Total: 4.821900 ms (FindLiveObjects: 0.255400 ms CreateObjectMapping: 0.101400 ms MarkObjects: 4.355200 ms  DeleteObjects: 0.108600 ms)
+Unloading 3985 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (1.5 MB). Loaded Objects now: 4442.
+Memory consumption went from 163.4 MB to 162.0 MB.
+Total: 5.187800 ms (FindLiveObjects: 0.413100 ms CreateObjectMapping: 0.255000 ms MarkObjects: 3.934400 ms  DeleteObjects: 0.583200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,211 +183,575 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.451 seconds
-Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.992 seconds
-Domain Reload Profiling: 1441ms
-	BeginReloadAssembly (161ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (210ms)
-		LoadAssemblies (284ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (992ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (590ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (490ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3565.
-Memory consumption went from 123.9 MB to 123.9 MB.
-Total: 4.052200 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.219200 ms MarkObjects: 3.502800 ms  DeleteObjects: 0.045400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 202637.103737 seconds.
+  path: Assets/Fake Interiors FREE/Assets/Texture/Concrete_A.png
+  artifactKey: Guid(34dc8e7f599c52544a147f84b107ebef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/Texture/Concrete_A.png using Guid(34dc8e7f599c52544a147f84b107ebef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd56d0b0c9a9d26daf5ba56bb6de24ff0') in 0.175698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 176182.981958 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/CircleICO_2.png
-  artifactKey: Guid(b86e0be351ca49c4a8e6217f302bb64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/CircleICO_2.png using Guid(b86e0be351ca49c4a8e6217f302bb64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50356463ae194e69dfb1ed3b8b368700') in 0.131069 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fake Interiors FREE/Assets/Texture/SimpleRoom/Wall_1.png
+  artifactKey: Guid(387ff9235ad31654982560a28908b71d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/Texture/SimpleRoom/Wall_1.png using Guid(387ff9235ad31654982560a28908b71d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '330bcdca813bb68f7033508841f9e2a6') in 0.051331 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 20.368405 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/Colors.mat
-  artifactKey: Guid(717baea9ed33c494ea7afaafcdb24d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/Colors.mat using Guid(717baea9ed33c494ea7afaafcdb24d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf44caef0a99afe25e56578053c48d6') in 0.255181 seconds
+  Time since last request: 0.000156 seconds.
+  path: Assets/Fake Interiors FREE/Assets/Texture/Ceiling.png
+  artifactKey: Guid(f59e9b3881f665b40bae6af71cd09554) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/Texture/Ceiling.png using Guid(f59e9b3881f665b40bae6af71cd09554) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a755c03ed5e53738099371716b43ae8') in 0.051041 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Fake Interiors FREE/Assets/Texture/WindowDirt.tga
+  artifactKey: Guid(316b806760e83e548a96d014a4fb251d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/Texture/WindowDirt.tga using Guid(316b806760e83e548a96d014a4fb251d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c955094e1e118a70b5ee2e4142e87be') in 0.048674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Fake Interiors FREE/Assets/Texture/BrickRoom/Ceiling.png
+  artifactKey: Guid(1d90ad99875b3cf4a8fadae6c7225db7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/Texture/BrickRoom/Ceiling.png using Guid(1d90ad99875b3cf4a8fadae6c7225db7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0f111ffea71aa02401cd83a972c8afd7') in 0.052069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fake Interiors FREE/Assets/Texture/Brick_A.png
+  artifactKey: Guid(145a72a5927189146b837129ae9590a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/Texture/Brick_A.png using Guid(145a72a5927189146b837129ae9590a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd8ee361c00e4f8e901234209eb4f6925') in 0.053494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_13.prefab
+  artifactKey: Guid(6e81d7f77fcd29545adbac3c59a3f90c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_13.prefab using Guid(6e81d7f77fcd29545adbac3c59a3f90c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b8be44f99404ed76c5cff96edeed7d8') in 0.076406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fake Interiors FREE/Assets/Prefabs/HDRP/Ground.prefab
+  artifactKey: Guid(7314cc434806e7042879790cc46f3909) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/Prefabs/HDRP/Ground.prefab using Guid(7314cc434806e7042879790cc46f3909) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '559fb3a6c0b5329d4884a5b92fca9d7b') in 0.037095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_20.prefab
+  artifactKey: Guid(efe2e78b425f6eb4db3bb08c81ea1c9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_20.prefab using Guid(efe2e78b425f6eb4db3bb08c81ea1c9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c4975605b7dd28e51d4c99ec347a774') in 0.055033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_3.prefab
+  artifactKey: Guid(d6c332084c007e047a69c389846ea240) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_3.prefab using Guid(d6c332084c007e047a69c389846ea240) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1ccfaf5f0a0ff8cc6f1dffbd2f82c36') in 0.038363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fake Interiors FREE/Assets/Texture/Facade_3_Smoothness.png
+  artifactKey: Guid(4404412c182a71e4a8306794b8cb1794) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/Texture/Facade_3_Smoothness.png using Guid(4404412c182a71e4a8306794b8cb1794) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f10375ec5cdb87b1b6b186c759929f34') in 0.042271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Fake Interiors FREE/Assets/Prefabs/HDRP/Sample Cube Divided Brick.prefab
+  artifactKey: Guid(8d842fa3243fbc6408f83dc2f7d70385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/Prefabs/HDRP/Sample Cube Divided Brick.prefab using Guid(8d842fa3243fbc6408f83dc2f7d70385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8c24f969c3fc50ea80ac420aa95d8f97') in 0.035811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Fake Interiors FREE/Assets/Prefabs/HDRP/Sample Cube Divided.prefab
+  artifactKey: Guid(13a955d4d642eaf4ebae2666b8eb8f58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/Prefabs/HDRP/Sample Cube Divided.prefab using Guid(13a955d4d642eaf4ebae2666b8eb8f58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9305f95ac2d60a6aefd9256b3b45397c') in 0.036067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Fbx/Materials/Gradients_3.004.mat
+  artifactKey: Guid(401ac5bcb11e49a4c8e6e5ee659161c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Fbx/Materials/Gradients_3.004.mat using Guid(401ac5bcb11e49a4c8e6e5ee659161c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c24db677ef41323829b46c6dc7f56044') in 0.050031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/StoneColors/1.mat
+  artifactKey: Guid(5105c16617b77e54281e310f2b309cf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/StoneColors/1.mat using Guid(5105c16617b77e54281e310f2b309cf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4046203f96f0b82adab226ec88da220a') in 0.035032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_16.prefab
+  artifactKey: Guid(6355fff73411f7643b24dd810706a668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_16.prefab using Guid(6355fff73411f7643b24dd810706a668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a9b8105ac5a94d2b0c4693f081c03a6') in 0.039327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/Ground.mat
-  artifactKey: Guid(c3514c5532c39fb45866a619c1502bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/Ground.mat using Guid(c3514c5532c39fb45866a619c1502bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32585aa68268497fe7211282b6feb03') in 0.031620 seconds
+  path: Assets/Fake Interiors FREE/Assets/Prefabs/BIRP/Sample Cube Large.prefab
+  artifactKey: Guid(c9c7de30ffb9c78468ba90220f54218b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/Prefabs/BIRP/Sample Cube Large.prefab using Guid(c9c7de30ffb9c78468ba90220f54218b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c06fec26ab098ea2d971f267376fc06') in 0.034928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_23.prefab
+  artifactKey: Guid(d978425175226224082194bc9a1de580) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_23.prefab using Guid(d978425175226224082194bc9a1de580) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fceece4607364a5003a4141eae94427') in 0.035191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_9.prefab
+  artifactKey: Guid(49ef492c893e3e549a7d1f8983d641d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_9.prefab using Guid(49ef492c893e3e549a7d1f8983d641d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7c080447a9a927872f3e2939b6e2f204') in 0.038323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_5.prefab
+  artifactKey: Guid(12b4eebf8d4563549ac51c8eea79737a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_5.prefab using Guid(12b4eebf8d4563549ac51c8eea79737a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f3b70f994aa77417c61e7d7509a7f10a') in 0.043147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Book 1.prefab
+  artifactKey: Guid(2cbe4e2044f02244aacc1bd01bc68118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Book 1.prefab using Guid(2cbe4e2044f02244aacc1bd01bc68118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e3c8debd43dc6d2448f8ebf214ce27c') in 0.042124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Battery.prefab
+  artifactKey: Guid(12df0d05126af19479270fb722a69acb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Battery.prefab using Guid(12df0d05126af19479270fb722a69acb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e357b8e3654cb8f88f148ab68b577ae4') in 0.033266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Awning 1.prefab
+  artifactKey: Guid(07bf097e10bf7f04eacc639499655663) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Awning 1.prefab using Guid(07bf097e10bf7f04eacc639499655663) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '703cbbd65265585f54d616b96ff8cee2') in 0.035591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_20.prefab
+  artifactKey: Guid(c8c87c0ac98f9a2458b83a50f789d70d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_20.prefab using Guid(c8c87c0ac98f9a2458b83a50f789d70d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0412eca1c3f2ce41fb008cb2a711ac8b') in 0.036526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_12.prefab
+  artifactKey: Guid(0d3028055436e3449aea68abe0492d38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_12.prefab using Guid(0d3028055436e3449aea68abe0492d38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa934301d0641182339cf73019b61389') in 0.032648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fake Interiors FREE/Plugins/EditorResources/FIIcon.png
+  artifactKey: Guid(1bebea1ffcd49b04ebdf740a4a576413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Plugins/EditorResources/FIIcon.png using Guid(1bebea1ffcd49b04ebdf740a4a576413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '452c91d6bfc686e6e6a596c2242d525e') in 0.032234 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Fake Interiors FREE/Assets/Prefabs/URP/Sample Building.prefab
+  artifactKey: Guid(3a855e4bb7dc294489de418d5ca6ba94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/Prefabs/URP/Sample Building.prefab using Guid(3a855e4bb7dc294489de418d5ca6ba94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '361918755be2bb21b039d82309a963dd') in 0.035247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_22.prefab
+  artifactKey: Guid(95b8860f96b65e7499d76592a6923051) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_22.prefab using Guid(95b8860f96b65e7499d76592a6923051) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03fb3ca3bd4999e288209e03acca1e89') in 0.038607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_3.prefab
+  artifactKey: Guid(42b30bc62c7d1b84a96865dc9cf52934) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Grass/Grass_3.prefab using Guid(42b30bc62c7d1b84a96865dc9cf52934) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0bbe6a03456c11a9a4d97ebb03cb8fd7') in 0.041971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Barrel.prefab
+  artifactKey: Guid(2e324f98fec5eb644937a11ec2aa516f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Barrel.prefab using Guid(2e324f98fec5eb644937a11ec2aa516f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6bdba48bb273c314001b58c879876218') in 0.037106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fake Interiors FREE/Plugins/Editor/ASEFakeInspector.cs
+  artifactKey: Guid(0bd99483d2324704e987fa69b11a906f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Plugins/Editor/ASEFakeInspector.cs using Guid(0bd99483d2324704e987fa69b11a906f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3d7345c230ecd13bf6b777d926f1024') in 0.024497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Nightstand 2.prefab
+  artifactKey: Guid(83ea41a9b78eb5144bdcbe48cf52192b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Nightstand 2.prefab using Guid(83ea41a9b78eb5144bdcbe48cf52192b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09cb0accedf51d4941f770c4ca540f24') in 0.050088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Pallet.prefab
+  artifactKey: Guid(dd11050be8051f5419100fbcbf626e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Pallet.prefab using Guid(dd11050be8051f5419100fbcbf626e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97a59f3f3f7b0e2a5a5418f2a3383f10') in 0.063667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Table 3.prefab
+  artifactKey: Guid(bcf11769da9171e4988a45bebf019cbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Table 3.prefab using Guid(bcf11769da9171e4988a45bebf019cbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2701ea0527f23ea3fee1054dabc7422a') in 0.066969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Slate.prefab
+  artifactKey: Guid(730c2f644ef5f934493f7c07e9d5902c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Slate.prefab using Guid(730c2f644ef5f934493f7c07e9d5902c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '882d4c528822aca8e8a040d4f856b138') in 0.053411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/List 1.prefab
+  artifactKey: Guid(c7f2f2722fcee0c40ad2d9868fdca70e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/List 1.prefab using Guid(c7f2f2722fcee0c40ad2d9868fdca70e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d8e58a82dd8fb85886d5cd39941c692') in 0.055373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Light 2.prefab
+  artifactKey: Guid(ead7f388e5a66514680d441dfd972d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Light 2.prefab using Guid(ead7f388e5a66514680d441dfd972d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2cda08b7188d748fd97595d6b0fa4236') in 0.037498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Sofa.prefab
+  artifactKey: Guid(847dc63611126744f9e33d17a54095c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Sofa.prefab using Guid(847dc63611126744f9e33d17a54095c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7201a111b832dfe4206cf5dd169e99f') in 0.043415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Fridge.prefab
+  artifactKey: Guid(d7a575db7bbe41d45840465d98cab954) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Fridge.prefab using Guid(d7a575db7bbe41d45840465d98cab954) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf76930f92570bbe6d03b7163eae8c40') in 0.038062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/List 4.prefab
+  artifactKey: Guid(e9be7dd7fa3c9904ea1bb289919b2ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/List 4.prefab using Guid(e9be7dd7fa3c9904ea1bb289919b2ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74972caf557d57052b399c47fd97c8c0') in 0.041326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_20.prefab
+  artifactKey: Guid(750c5497d5b292843acd956d194bfb73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_20.prefab using Guid(750c5497d5b292843acd956d194bfb73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e30f006a7b6bbba8d2e3bf6485303fe') in 0.036862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_15.prefab
+  artifactKey: Guid(8350df8b16289e445b22dedbeca77d01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_15.prefab using Guid(8350df8b16289e445b22dedbeca77d01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ff095483e1f910b2a8f98b8b00377335') in 0.042893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_36.prefab
+  artifactKey: Guid(f8db5d927ce7e6a489506c6760bc4b7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_36.prefab using Guid(f8db5d927ce7e6a489506c6760bc4b7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a71b700991c23e5f89f6fc05ecc689a') in 0.046871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Big Garage/Roof.prefab
+  artifactKey: Guid(dfcd561256250f34981470865a0cb8b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Big Garage/Roof.prefab using Guid(dfcd561256250f34981470865a0cb8b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '331efe9576587915e1b5c46019c14390') in 0.043582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_6.prefab
+  artifactKey: Guid(6c1f2f3b773f6da48bfc2f52765a2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_6.prefab using Guid(6c1f2f3b773f6da48bfc2f52765a2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5af3abf188b9ac6f6ec7b907d83f97f') in 0.050670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_34.prefab
+  artifactKey: Guid(ebdc43a1651b3c14fb50f61b67f8daed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_34.prefab using Guid(ebdc43a1651b3c14fb50f61b67f8daed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ab29210d302f474b0c54015aed904ea') in 0.044251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Little angar/Foundation.prefab
+  artifactKey: Guid(89d00439e72bd0c4b8be5b8f0ca61ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Little angar/Foundation.prefab using Guid(89d00439e72bd0c4b8be5b8f0ca61ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '117139d9186983657a9a1c98f314adad') in 0.045252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_32.prefab
+  artifactKey: Guid(28baadc9ea818dc44bf4d83596a82f5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_32.prefab using Guid(28baadc9ea818dc44bf4d83596a82f5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6dd7ad08f4fb8936aee7bd84b59514cc') in 0.063229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Curtains.prefab
+  artifactKey: Guid(2390c2ff1c5e2254fbb93756767c6fb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Curtains.prefab using Guid(2390c2ff1c5e2254fbb93756767c6fb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '437a657e9d4fbaac237a43306a0281e8') in 0.059416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
   Time since last request: 0.000052 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/PaperTexture.mat
-  artifactKey: Guid(41a8b341ff5320d499cd2dcc490a87f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/PaperTexture.mat using Guid(41a8b341ff5320d499cd2dcc490a87f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43da3d25504b216866d4eb9dec989a46') in 0.019549 seconds
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_1.prefab
+  artifactKey: Guid(f68ca928f6c76ca4993083296704ea01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_1.prefab using Guid(f68ca928f6c76ca4993083296704ea01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd07b1924daba79a26de4bff1eee234b') in 0.048536 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/Gradients_3.mat
-  artifactKey: Guid(eb39674776ca99140885fd3de5757672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/Gradients_3.mat using Guid(eb39674776ca99140885fd3de5757672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f20d5b603f52db83c7142a0777906d') in 0.020944 seconds
+  Time since last request: 0.000052 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Walls.prefab
+  artifactKey: Guid(8362f67ae6902f441acf32c68d7876b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Walls.prefab using Guid(8362f67ae6902f441acf32c68d7876b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f689264abee8043d378800bf0c7d7c3') in 0.052591 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/TMGS.mat
-  artifactKey: Guid(6bbbf074a3ea7f34d9fac7ce64ebd4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/TMGS.mat using Guid(6bbbf074a3ea7f34d9fac7ce64ebd4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3844b8d1a4f0aa623f99d16082f2e31') in 0.021775 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.838256 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/StoneColors/1.mat
-  artifactKey: Guid(5105c16617b77e54281e310f2b309cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/StoneColors/1.mat using Guid(5105c16617b77e54281e310f2b309cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c1aaeedad6d07202a4b7b124d6fb94') in 0.022653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/StoneColors/2.mat
-  artifactKey: Guid(55c9c530793a5b64cab6886075450671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/StoneColors/2.mat using Guid(55c9c530793a5b64cab6886075450671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4060cb905841d11440a23adc1017856') in 0.020553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/StoneColors/3.mat
-  artifactKey: Guid(ff313592d66113448b0cd5669786b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/StoneColors/3.mat using Guid(ff313592d66113448b0cd5669786b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f5ef529c6ff6b70eb4a701890be016') in 0.021705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 11.306643 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Big Garage/Walls.prefab
-  artifactKey: Guid(a63b95fef9c8a944ebd2f967dc9afb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Big Garage/Walls.prefab using Guid(a63b95fef9c8a944ebd2f967dc9afb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2ed2075221d4e2aa95330fb0ec9340') in 0.053402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 2.763094 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Garage/Roof.prefab
-  artifactKey: Guid(6f6a2c6094575ad45828ac5a5e66ba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Garage/Roof.prefab using Guid(6f6a2c6094575ad45828ac5a5e66ba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9687886fb849c35d090042fe1333ea4e') in 0.036008 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Garage/Walls.prefab
-  artifactKey: Guid(b2176eb7ac7b2374486b40cfb3b81053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Garage/Walls.prefab using Guid(b2176eb7ac7b2374486b40cfb3b81053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d006cd6d4f3265f80a3f8c184f8ee4') in 0.037139 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 2.008825 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Little angar/Walls.prefab
-  artifactKey: Guid(73fb66deac9bfa54eb369e36b1a7f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Little angar/Walls.prefab using Guid(73fb66deac9bfa54eb369e36b1a7f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48e075ea902433831c6740d1e09cba6') in 0.029901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 2.642939 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof.prefab
-  artifactKey: Guid(512b4764275d5b14b812191d182b3351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof.prefab using Guid(512b4764275d5b14b812191d182b3351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582536118a7fc4c3d2dc1a681c5b34d1') in 0.027083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof prop_0.prefab
-  artifactKey: Guid(31c273044d2c3c542aad6e951a78926e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof prop_0.prefab using Guid(31c273044d2c3c542aad6e951a78926e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c518abe59290b7ec4093a20d71c0302a') in 0.040521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof_1.prefab
-  artifactKey: Guid(3deb1e52cd9daeb4eb6e5f48068cb84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof_1.prefab using Guid(3deb1e52cd9daeb4eb6e5f48068cb84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8950f5a42d96aae1e0e8164cd71e8370') in 0.023878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
+  Time since last request: 0.000040 seconds.
   path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof prop_1.prefab
-  artifactKey: Guid(6c0b99f345950b445b660a6886deae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof prop_1.prefab using Guid(6c0b99f345950b445b660a6886deae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76282e2bfeb754a09b3ef5c304a467fa') in 0.029433 seconds
+  artifactKey: Guid(6c0b99f345950b445b660a6886deae7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof prop_1.prefab using Guid(6c0b99f345950b445b660a6886deae7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2fe258e645f71f3bbf44aadef6ea3ff7') in 0.053571 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Fences/3/Fence_3.prefab
+  artifactKey: Guid(a1069bb3bb6fbb24ea6799d8c3893313) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Fences/3/Fence_3.prefab using Guid(a1069bb3bb6fbb24ea6799d8c3893313) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec64215a363f51715cc8cf0e03f13837') in 0.039135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Fences/1/Fence_2.prefab
+  artifactKey: Guid(e9212b736d0ee064680b1e80b0d07ea1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Fences/1/Fence_2.prefab using Guid(e9212b736d0ee064680b1e80b0d07ea1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b269469e04efcd5ea8d1d224b863ea5') in 0.036646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Wooden booth/Roof.prefab
+  artifactKey: Guid(9b6dda57b22ab4146b0110222bcf4659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Wooden booth/Roof.prefab using Guid(9b6dda57b22ab4146b0110222bcf4659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7fafdf03b84021ccd262d9d77c9d7059') in 0.051251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Fences/6/Fence.prefab
+  artifactKey: Guid(668e384c1edabbb43bf5851ac7e2aca4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Fences/6/Fence.prefab using Guid(668e384c1edabbb43bf5851ac7e2aca4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2233199143b38eda0bdd610e1e226f8') in 0.039893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_0.prefab
+  artifactKey: Guid(4a30ba79df7f1754e8b69e78fd648cf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_0.prefab using Guid(4a30ba79df7f1754e8b69e78fd648cf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fc6329acadf998789e4c0cbe575955d') in 0.051141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Fences/1/Fence.prefab
+  artifactKey: Guid(15f08be0a2a1d9249a2eaf827e358d3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Fences/1/Fence.prefab using Guid(15f08be0a2a1d9249a2eaf827e358d3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c6b65946879e954f4ab689f1729c19c6') in 0.046266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Fences/0/Fence_1.prefab
+  artifactKey: Guid(4b4568f3b92827c40a0a6ddd66253879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Fences/0/Fence_1.prefab using Guid(4b4568f3b92827c40a0a6ddd66253879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17483ae10821ad789ee97882c722cb8c') in 0.043335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Fences/0/Fence_0.prefab
+  artifactKey: Guid(67411d9fc275e104aaae9b68a9967500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Fences/0/Fence_0.prefab using Guid(67411d9fc275e104aaae9b68a9967500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1dc722c71869add137ad7e3dc33f8033') in 0.052768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_10.prefab
+  artifactKey: Guid(86bb4051606871c428f5c653933a922b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_10.prefab using Guid(86bb4051606871c428f5c653933a922b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2410a0f7101175d1133ca1ab2f0c6a31') in 0.048542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_11.prefab
+  artifactKey: Guid(30c895ebf72f7ff4c9d0595a999ffee8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_11.prefab using Guid(30c895ebf72f7ff4c9d0595a999ffee8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94600730cb294019c3bee1200c3fd9d2') in 0.050745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Wooden pillar.prefab
+  artifactKey: Guid(8614bee1378968648b8e09148f0a2fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Wooden pillar.prefab using Guid(8614bee1378968648b8e09148f0a2fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67f0621456e9b4b4615ab05cea0f6c12') in 0.048204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Table 1.prefab
+  artifactKey: Guid(8de402e62bdbe2d4c8f5ee062868613c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Table 1.prefab using Guid(8de402e62bdbe2d4c8f5ee062868613c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c85ddbd17221b35f9ac0d211d7cb5a84') in 0.040175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Bottle 1.prefab
+  artifactKey: Guid(1d644aa325163a44bb8a197a3f996219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Props/Bottle 1.prefab using Guid(1d644aa325163a44bb8a197a3f996219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3538a4ac802f5c946f5e7c36d23611cf') in 0.049397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_14.prefab
+  artifactKey: Guid(26541c724b5c3c1449d45eba2b99f803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_14.prefab using Guid(26541c724b5c3c1449d45eba2b99f803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0179ec70a887d4a039ea72cffa75142b') in 0.042352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fake Interiors FREE/Assets/Prefabs/URP/Sample Facade.prefab
+  artifactKey: Guid(b18d84b2a87ff0b40a99e0c72ccf466d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/Prefabs/URP/Sample Facade.prefab using Guid(b18d84b2a87ff0b40a99e0c72ccf466d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '279fd089fb2197703fa59ad57665f4a6') in 0.042459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Fake Interiors FREE/Assets/FBX/WindowFrame.FBX
+  artifactKey: Guid(d41d54609957dae498639f2b8918338e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/FBX/WindowFrame.FBX using Guid(d41d54609957dae498639f2b8918338e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fffe682fbac6604382b3f84431a7c859') in 0.064460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fake Interiors FREE/Samples URP 14x.unitypackage
+  artifactKey: Guid(e73ddf3958e25254abe5caf650211668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Samples URP 14x.unitypackage using Guid(e73ddf3958e25254abe5caf650211668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7a100e704e202e8cc139b4a0118e29a') in 0.017046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Fake Interiors FREE/Readme.txt
+  artifactKey: Guid(78abf6e3d42476145b4c1171e963c332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Readme.txt using Guid(78abf6e3d42476145b4c1171e963c332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '711b7b907e481797fc184f179dae8950') in 0.032245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Fake Interiors FREE/Assets/FBX/BrickFacade.FBX
+  artifactKey: Guid(f965da8f196667e409677880ed6aa66c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fake Interiors FREE/Assets/FBX/BrickFacade.FBX using Guid(f965da8f196667e409677880ed6aa66c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a0dbae604fbd1828a92f2842b51aa35') in 0.033957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
