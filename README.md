@@ -11,9 +11,9 @@ In our Unity project, we meticulously implemented a comprehensive fire exit simu
 
 
 ## Roles & Contributions
-Nathan Bouffet (33%):
+- Nathan Bouffet (33%):
 Integrated realistic fire effects and applied shaders and texture mapping to game objects
-Dylan Tran (33%): 
+- Dylan Tran (33%): 
 Created intuitive user interface and implemented character movement and navigation controls
-Megan Lee (33%): 
+- Megan Lee (33%): 
 Researched Dormitory Building 16 (DICE) and developed accurate 3D graphic models
