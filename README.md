@@ -1,4 +1,5 @@
-# DICE-Fire-Escape-Simulation
+# POSTECH Evacuate
+A Fire Escape Simulation w/ Unity
 
 ## Demo Video
 [Full Demo](https://drive.google.com/file/d/1uUVUiMOdKrDJpqTRSA-hG9gJ2kwXiLgR/view?usp=sharing)
