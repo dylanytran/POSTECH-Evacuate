@@ -1,6 +1,6 @@
 # POSTECH Evacuate - A Fire Escape Simulation w/ Unity
 
-## [Demo Video](https://drive.google.com/file/d/1uUVUiMOdKrDJpqTRSA-hG9gJ2kwXiLgR/view?usp=sharing)
+[Demo Video](https://drive.google.com/file/d/1uUVUiMOdKrDJpqTRSA-hG9gJ2kwXiLgR/view?usp=sharing)
 
 ## Introduction
 Fire safety is a critical concern within any building, especially university campuses with a high density of occupants. Familiarization with escape routes is paramount in ensuring a safe and efficient evacuation during a fire emergency. This project proposes the development of "POSTECH Evacuate", a virtual fire escape simulation tool built using Unity.
