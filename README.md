@@ -1,5 +1,7 @@
 # DICE-Fire-Escape-Simulation
 
+[Demo Video](https://drive.google.com/file/d/1uUVUiMOdKrDJpqTRSA-hG9gJ2kwXiLgR/view?usp=sharing)
+
 ## Introduction
 Fire safety is a critical concern within any building, especially university campuses with a high density of occupants. Familiarization with escape routes is paramount in ensuring a safe and efficient evacuation during a fire emergency. This project proposes the development of "POSTECH Evacuate", a virtual fire escape simulation tool built using Unity.
 
@@ -7,8 +9,7 @@ Fire safety is a critical concern within any building, especially university cam
 Fire safety training currently faces limitations. Traditional methods rely on static diagrams and presentations, failing to capture the immersive experience crucial for internalizing escape routes and practicing decision-making under pressure in a real fire scenario. This passive learning approach often leads to decreased focus and poor retention of critical information. While Virtual Reality (VR) offers a more engaging and immersive training experience, its development can be expensive and complex, especially when tailored to specific building layouts and procedures. This high cost significantly hinders VR's accessibility for institutions seeking to implement such training for their staff and students.
 
 ## Implementation
-In our Unity project, we meticulously implemented a comprehensive fire exit simulator for our building named "DICE." We began by reconstructing the entire layout of the DICE building, ensuring accurate representation of all rooms, hallways, exits, and structural features. Using Unity's robust modeling tools, we imported CAD designs and architectural plans to create a faithful digital twin of the building. For the fire simulation, we integrated advanced particle systems and shaders to produce realistic fire and smoke effects.  Users can interact with the simulator through a user-friendly interface that allows them to trigger fire events, observe escape routes, and even practice evacuation procedures. By combining realistic environmental interactions with intuitive user controls, our fire exit simulator serves as a crucial training tool, helping occupants of the DICE building understand and react appropriately in emergency situations.
-
+Using Unity's High-Definition Render Pipeline (HDRP) and assets from the asset store, we were able to create a realistic 3D environment that mimics POSTECH’s Dormitory Building 16 (DICE). For our game mechanics, the first-person player is controlled using simple keyboard and mouse inputs, providing intuitive navigation through hallways, rooms, and staircases. We implemented dynamic fire and smoke graphics along with realistic fire alarm and siren noises, adding great realism to the game and challenging the player’s ability to think under pressure. The pink guided arrows, strategically placed throughout the environment, serve as visual cues that direct the player towards the correct evacuation route. These arrows are designed to be clear and prominent, ensuring that users can easily identify and follow them even in low-visibility conditions caused by smoke. This element is a crucial part of our escape simulation, as it teaches and familiarizes users with the building's layout , ultimately promoting fire safety awareness and preparedness within POSTECH.
 
 ## Roles & Contributions
 - Nathan Bouffet (33%):
